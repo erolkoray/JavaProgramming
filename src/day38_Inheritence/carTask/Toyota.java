@@ -10,14 +10,4 @@ public class Toyota extends Car{
         System.out.println(brand+" "+model+" is reliable");
     }
 
-    public String toString() {
-        return "Toyota{" +
-                "brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                ", colour='" + colour + '\'' +
-                ", price= £" + price +
-                ", miles=" + miles +
-                '}';
-    }
 }
