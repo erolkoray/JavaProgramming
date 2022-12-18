@@ -1,4 +1,4 @@
-package day38_Inheritence.carTask;
+package day38_Method_Overriding.carTask;
 
 public class Toyota extends Car{
 
@@ -8,6 +8,10 @@ public class Toyota extends Car{
 
     public void reliable(){
         System.out.println(brand+" "+model+" is reliable");
+    }
+
+    public void start(){
+        System.out.println("Twist the key in ignition to start "+brand+" "+model);
     }
 
 }

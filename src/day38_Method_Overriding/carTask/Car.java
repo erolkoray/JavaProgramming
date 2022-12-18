@@ -1,4 +1,4 @@
-package day38_Inheritence.carTask;
+package day38_Method_Overriding.carTask;
 
 public class Car {
 

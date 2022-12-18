@@ -1,4 +1,4 @@
-package day38_Inheritence.carTask;
+package day38_Method_Overriding.carTask;
 
 public class BMW extends Car{
 
@@ -12,5 +12,9 @@ public class BMW extends Car{
 
     public void racing(){
         System.out.println(brand+" "+model+" is racing");
+    }
+
+    public void start(){
+        System.out.println("Call the mechanic to jump start "+brand+" "+model);
     }
 }
