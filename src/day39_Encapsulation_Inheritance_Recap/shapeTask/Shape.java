@@ -26,10 +26,19 @@ public class Shape {
 
     public double area(){
         return 0;
-    }
+    }       // these are set to 0 as a temporary value so we can override the method in subclasses
 
     public double perimeter(){
         return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name='" + name + '\'' +
+                "area='" + area() + '\'' +
+                "perimeter='" + perimeter() + '\'' +
+                '}';
     }
 
 
