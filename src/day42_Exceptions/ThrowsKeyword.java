@@ -1,6 +1,6 @@
 package day42_Exceptions;
 
-public class ThrowsKeyword {
+public class ThrowsKeyword { // YOU CAN ADD MULTIPLE EXCEPTION RULES TO ONE METHOD USING THROWS KEYWORD.
     public static void main(String[] args) throws InterruptedException { // THROWS keyword here means this class will not be impacted by the exception rule that follows - in this case its InterruptedException
 
         System.out.println("----------------- Test 1 ------------------");
