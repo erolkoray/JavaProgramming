@@ -5,8 +5,9 @@ import java.io.FileNotFoundException;
 
 public class DisadvantageOfThrowsKeyword2 {
 
-    public static void method1() throws FileNotFoundException { // THROWS ONLY FIXES THE EXCEPTION ISSUE WITHIN THE METHOD IT IS USED
-        new FileInputStream("K");
+    public static void method1() throws InterruptedException { // THROWS ONLY FIXES THE EXCEPTION ISSUE WITHIN THE METHOD IT IS USED
+       // new FileInputStream("K");
+        Thread.sleep(200);
     }
 
     public static void method2(){
