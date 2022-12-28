@@ -1,6 +1,6 @@
 package day43_AbstractionIntro.employee;
 
-public class Driver extends Employee{
+public final class Driver extends Employee{
 
 
     public Driver(String name, int age, char gender, int ID, String jobTitle, int salary) {
