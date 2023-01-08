@@ -30,7 +30,7 @@ public interface PropertiesOfInterface {
     public abstract void method3();
 
 
-    // method4() - allows us to pass a specific implementation. This way if multiple classes need to use the same implementation of this method, we can make this method default. So it won't be overriden
+    // method4() - allows us to pass a specific implementation. This way if multiple classes need to use the same implementation of this method, we can make this method default. So it shouldn't be overriden
     default void method4(){
         System.out.println("Default method");
     }
