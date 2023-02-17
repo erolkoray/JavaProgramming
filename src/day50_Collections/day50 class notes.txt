@@ -1,6 +1,8 @@
 YOU WILL NOT USE QUEUE IN THE FUTURE WHEN YOU ARE DOING THE JOB
 YOU WILL USE LIST AND SET - PARTICULARLY ARRAYLIST AND HASHSET
 
+// INSTEAD OF USING ITERATOR - USE REMOVEIF () METHOD
+
 Java Day50
 Topics: 1. Collection continue - Iterable
 		2. Collection Review
@@ -17,11 +19,11 @@ Collections Framework: consists of multiple interface, each interface is impleme
 
 				List (I): duplicates are allowed, has index number
 
-						ArrayList (C): searching/accessing elements is faster.
+WE WILL ONLY USE THIS->	ArrayList (C): searching/accessing elements is faster.
 
 						LinkedList (C): insertion /deletion of the element is faster
 
-						Vector (C): is Synchronized ==> thread-safe
+						Vector (C): is Synchronized ==> thread-safe - this is also called synchronized arraylist
 
 						Stack (C): is Synchronized ==> thread-safe. LIFO
 
@@ -30,7 +32,7 @@ Collections Framework: consists of multiple interface, each interface is impleme
 
 				Set (I): duplicates are not allowed, does not have index number
 
-						HashSet (C): Maintains random order. Fastest
+WE'LL MOSTLY USE THIS->	HashSet (C): Maintains random order. Fastest
 
 						LinkedHashSet (C): Maintains insertion order
 
